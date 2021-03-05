@@ -418,13 +418,13 @@ await scheduler.regTask(
   );
 
   //首页-下载app
-  await scheduler.regTask(
+  /*await scheduler.regTask(
     "freeDownFloorAd",
     async (request) => {
       await require("./freeDownFloorAd.js").doTask(request, options);
     },
     taskOption
-  );
+  );*/
   //首页-签到有礼-免费抽霸王餐
   await scheduler.regTask(
     "dailyBaWangcard",
@@ -444,22 +444,22 @@ await scheduler.regTask(
   );
 
   // 首页-签到有礼-免费领-猜拳拿话费
-  await scheduler.regTask(
+ /* await scheduler.regTask(
     "dailyFingerqd",
     async (request) => {
       await require("./dailyFingerqd.js").doTask(request, options);
     },
     taskOption
-  );
+  );*/
 
   // 积分商城-积分猜拳-猜拳二号
-   await scheduler.regTask(
+  /* await scheduler.regTask(
     "dailyFingerqd2",
     async (request) => {
       await require("./dailyFingerqd2.js").doTask(request, options);
     },
     taskOption
-  );
+  );*/
 
   
   
